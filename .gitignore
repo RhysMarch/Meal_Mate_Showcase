@@ -1,0 +1,6 @@
+Meal_Mate_Showcase.iml
+.idea/
+*.iml
+node_modules/
+dist/
+
