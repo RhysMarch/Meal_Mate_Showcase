@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4; /* A light gray background */
+}
+
+h1 {
+    font-size: 2em; /* Reduced size for better fit */
+    color: #333; /* Darker color for better readability */
+    /* Space below the title */
+    margin: 0 0 0;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 0;
+}
+
+.title-container {
+    display: flex; /* Use flexbox for positioning */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center the items horizontally */
+    position: relative; /* Position relative for absolute positioning of logo */
+    background: rgba(87, 190, 95, 0.7); /* A muted green */
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+    height: 80px;
+    left: 40px;
+    position: absolute;
+}
+
+.title-text {
+    display: flex; /* Use flexbox for the title and subtitle */
+    flex-direction: column; /* Stack them vertically */
+    align-items: center; /* Center the title and subtitle */
+    justify-content: center; /* Center them vertically */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 80px;
+}
+
+.video-container iframe {
+    width: 100%; /* Makes the iframe responsive */
+    max-width: 1000px;
+    max-height: 900px;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
