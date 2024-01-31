@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Meal Mate Showcase</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="assets/images/mealmatelogo.png" sizes="32x32"> <!-- Favicon link -->
+    <link rel="icon" type="image/png" href="assets/images/mealmatelogo.png" sizes="32x32">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<button class="dropbtn" onclick="toggleSidebar()">☰ Menu</button>
 <header class="title-container">
     <img src="assets/images/mealmatelogo.png" alt="Meal Mate Logo" class="logo">
     <div class="title-text">
@@ -17,9 +18,26 @@
     </div>
 </header>
 
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/-p_3jIddzrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="mySidebar" class="sidebar">
+    <a href="#section1">Tech Demo</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
 </div>
+
+<div id="main">
+    <section id="section1" class="content-section">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/-p_3jIddzrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="section2" class="">
+       <div>
+
+       </div>
+    </section>
+</div>
+
+
 <script src="js/main.js"></script>
 </body>
 </html>
