@@ -191,3 +191,7 @@ li {
     width: 100px;
     height: 100px;
 }
+
+.highlighted-text {
+    color: rgb(89, 161, 94); /* Replace #yourColor with the hex code of your desired color */
+}
