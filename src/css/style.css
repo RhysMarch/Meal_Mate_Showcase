@@ -160,9 +160,16 @@ li {
 
 .image {
     float: right;
-    width: 50%;
-    height: auto;
     padding-left: 20px;
+    height: auto;
+    width: 45vw;
+    padding-bottom: 20px;
+}
+
+.image2 {
+    float: left;
+    height: auto;
+    width: auto;
     padding-bottom: 20px;
 }
 
