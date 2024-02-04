@@ -176,3 +176,18 @@ li {
 .clear {
     clear: both;
 }
+
+.icons-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
