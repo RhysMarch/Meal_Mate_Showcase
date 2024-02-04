@@ -1,8 +1,15 @@
-body, html {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: #f4f4f4; /* A light gray background */
-    padding: 50px 0 0;
+html, body {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     background: #f4f4f4; /* A light gray background */
+     padding: 50px 0 0;
+     height: 100%;
+ }
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -16,6 +23,10 @@ p {
     font-size: 1.2em;
     color: #262626;
     margin-top: 0;
+}
+
+li {
+    padding-left: 20px;
 }
 
 .title-container {
@@ -32,6 +43,13 @@ p {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 100;
     height: 100px;
+    scroll-margin-top: 100px;
+}
+
+.content-section {
+    min-height: 40vw;
+    scroll-snap-align: start;
+    flex-direction: column;
 }
 
 .logo {
@@ -52,7 +70,7 @@ p {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 80px;
+    margin: 120px;
 }
 
 .video-container iframe {
@@ -109,8 +127,7 @@ p {
 
 /* Main content styles */
 #main {
-    transition: margin-right .5s;
-    padding: 20px;
+    flex: 1;
 }
 
 /* When the sidebar is opened, push the content to the right */
@@ -125,4 +142,30 @@ p {
     .logo {
         display: none;
     }
+}
+
+.divisor {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.sub-section {
+    padding: 20px 100px;
+    width: 90%;
+    word-wrap: break-word;
+    top: 5px;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: both;
 }
