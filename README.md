@@ -1,6 +1,8 @@
 Meal Mate is a web application aimed at reducing food waste and achieving the goal of zero hunger. 
 Meal Mate features many functionalities that help users reduce food waste and make a positive impact on the environment.
 
+ Showcase Webpage - https://rhysmarch.github.io/Meal_Mate_Showcase/
+
 <img src="src/assets/images/mealmatelogo.png" alt="Meal Mate Logo" width="100" height="100">
 
 ## Technologies
