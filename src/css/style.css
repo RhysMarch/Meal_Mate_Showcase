@@ -193,5 +193,47 @@ li {
 }
 
 .highlighted-text {
-    color: rgb(89, 161, 94); /* Replace #yourColor with the hex code of your desired color */
+    color: rgb(89, 161, 94);
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .title-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content-section, .sub-section {
+        padding: 20px;
+    }
+
+    .image, .image2 {
+        width: 90%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        padding-top: 20px;
+    }
+
+    .video-container {
+        margin: 20px;
+        padding-top: 40px;
+    }
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .title-text h1 {
+        font-size: 1.5em;
+    }
+    .title-text p {
+        font-size: 1em;
+    }
 }
